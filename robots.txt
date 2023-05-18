@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: assets/
-
+Sitemap: https://bohdankaira.github.io/sitemap.xml
 Host: bohdankaira.github.io
