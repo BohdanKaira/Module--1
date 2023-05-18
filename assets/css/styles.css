@@ -10,7 +10,7 @@ body {
   line-height: 1.625rem;
   color: rgba(38, 42, 63, 0.8);
   font-weight: 300;
-  background-image: url(/assets/images/first-screen-white.jpg);
+  background-image: url(../images/first-screen-white.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
