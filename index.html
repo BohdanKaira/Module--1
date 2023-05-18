@@ -48,23 +48,33 @@
                         <img src="assets/images/logo.svg" alt="Logo">
                     </a>
                 </div>
-                <div class="hamb-wrap">
+                <div class="nav-wrap">
+                    <div class="hamb-wrap">
                         <button class="hamburger hamburger--spin" id="hamb-btn" type="button" onclick="toggleMenu()">
                             <span class="hamburger-box">
                             <span class="hamburger-inner"></span>
                             </span>
                         </button>  
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#home" rel="norefferer nofollow">Home</a></li>
+                            <li><a href="#about" rel="norefferer nofollow">About</a></li>
+                            <li><a href="#" rel="norefferer nofollow">Products</a></li>
+                            <li><a href="#" rel="norefferer nofollow">Use Cases</a></li>
+                            <li><a href="#" rel="norefferer nofollow">Pricing</a></li>
+                            <li><a href="#" rel="norefferer nofollow">Resources</a></li>
+                        </ul>
+                    </nav>
+                    <div class="switch-flex">
+                        <div class="switch-item-light">Light</div>
+                        <label class="switch">
+                            <input type="checkbox" id="switcher">
+                            <span class="slider"></span>
+                        </label>
+                        <div class="switch-item-dark">Dark</div>
+                    </div>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="#home" rel="norefferer nofollow">Home</a></li>
-                        <li><a href="#about" rel="norefferer nofollow">About</a></li>
-                        <li><a href="#" rel="norefferer nofollow">Products</a></li>
-                        <li><a href="#" rel="norefferer nofollow">Use Cases</a></li>
-                        <li><a href="#" rel="norefferer nofollow">Pricing</a></li>
-                        <li><a href="#" rel="norefferer nofollow">Resources</a></li>
-                    </ul>
-                </nav>
             </div>
         </div>
     </header>
@@ -260,15 +270,25 @@
     <script src="assets/js/lazyload.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script>
-    function toggleMenu(){
-        document.getElementById('hamb-btn').classList.toggle('is-active');
-        document.getElementById('mobile-sidebar').classList.toggle('open')
-        }
-        const lazyLoadInstance = new LazyLoad({});
-        const wow = new WOW({
-            animateClass: "animate__animated"
+        function toggleMenu(){
+            document.getElementById('hamb-btn').classList.toggle('is-active');
+            document.getElementById('mobile-sidebar').classList.toggle('open')
+            }
+            const lazyLoadInstance = new LazyLoad({});
+            const wow = new WOW({
+                animateClass: "animate__animated"
+            })
+            wow.init();
+        window.addEventListener('scroll', function(){
+            if(window.scrollY > 30){
+                document.getElementById('header').classList.add('fixed');
+            } else {
+                document.getElementById('header').classList.remove('fixed');
+            }
         })
-        wow.init();
+        document.getElementById('switcher').addEventListener('change', function(){
+            document.children[0].classList.toggle('dark');
+        })   
     </script>
 </body>
 </html>
