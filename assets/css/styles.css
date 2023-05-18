@@ -43,7 +43,7 @@ a, button {
 .dark body {
   color: rgba(255, 255, 255, 0.8);
   background-color: #161926;
-  background-image: url(../assets/images/first-screen-black.jpg);
+  background-image: url(../images/first-screen-black.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -109,7 +109,7 @@ a, button {
   border-top: 1px solid #515773;
 }
 .dark .fourh-page p::before {
-  background-image: url(../assets/images/quote-icon-dark.svg);
+  background-image: url(../images/quote-icon-dark.svg);
 }
 .dark .contact-flex {
   border-top: 1px solid #515773;
@@ -347,7 +347,7 @@ h1 + p {
 }
 
 .second-page {
-  background-image: url(../assets/images/skyscrapers.jpg);
+  background-image: url(../images/skyscrapers.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 45px 0;
@@ -449,7 +449,7 @@ h1 + p {
 }
 
 .fourh-page {
-  background-image: url(../assets/images/section-4-background.jpg);
+  background-image: url(../images/section-4-background.jpg);
   padding: 100px 0 97px 160px;
 }
 .fourh-page p {
@@ -466,7 +466,7 @@ h1 + p {
   content: "";
   width: 102px;
   height: 84px;
-  background-image: url(../assets/images/quote-icon.svg);
+  background-image: url(../images/quote-icon.svg);
   position: absolute;
   top: -30px;
   left: -60px;
@@ -545,7 +545,7 @@ h1 + p {
 }
 
 .grid-wrapper {
-  background-image: url(../assets/images/section-6-background.jpg);
+  background-image: url(../images/section-6-background.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 45px 0;
@@ -645,17 +645,17 @@ h1 + p {
 }
 
 .first {
-  background: url(../assets/images/review-1.jpg) rgba(25, 28, 41, 0.6);
+  background: url(../images/review-1.jpg) rgba(25, 28, 41, 0.6);
   background-blend-mode: multiply;
 }
 
 .second {
-  background: url(../assets/images/review-2.jpg) rgba(25, 28, 41, 0.6);
+  background: url(../images/review-2.jpg) rgba(25, 28, 41, 0.6);
   background-blend-mode: multiply;
 }
 
 .third {
-  background: url(../assets/images/review-3.jpg) rgba(25, 28, 41, 0.6);
+  background: url(../images/review-3.jpg) rgba(25, 28, 41, 0.6);
   background-blend-mode: multiply;
 }
 
