@@ -55,7 +55,7 @@ a, button {
     body {
         color: $color-font-dark;
         background-color: #161926;
-        background-image: url(/assets/images/first-screen-black.jpg);
+        background-image: url(../assets/images/first-screen-black.jpg);
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -136,7 +136,7 @@ a, button {
     .fourh-page {
         p {
             &::before {
-                background-image: url(/assets/images/quote-icon-dark.svg);
+                background-image: url(../assets/images/quote-icon-dark.svg);
             }
         }
     }
@@ -383,7 +383,7 @@ h1 {
     padding-bottom: 117px;
 }
 .second-page {
-    background-image: url(/assets/images/skyscrapers.jpg);
+    background-image: url(../assets/images/skyscrapers.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 45px 0;
@@ -478,7 +478,7 @@ h1 {
     padding-bottom: 120px;
 }
 .fourh-page {
-    background-image: url(/assets/images/section-4-background.jpg);
+    background-image: url(../assets/images/section-4-background.jpg);
     padding: 100px 0 97px 160px;
     p {
         @include fz(32);
@@ -494,7 +494,7 @@ h1 {
             content: '';
             width: 102px;
             height: 84px;
-            background-image: url(/assets/images/quote-icon.svg);
+            background-image: url(../assets/images/quote-icon.svg);
             position: absolute;
             top: -30px;
             left: -60px;
@@ -577,7 +577,7 @@ h1 {
     padding-bottom: 120px;
 }
 .grid-wrapper {
-    background-image: url(/assets/images/section-6-background.jpg);
+    background-image: url(../assets/images/section-6-background.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 45px 0;
@@ -682,15 +682,15 @@ h1 {
     }
 }
 .first {
-    background: url(/assets/images/review-1.jpg) rgba(25, 28, 41, 0.6);
+    background: url(../assets/images/review-1.jpg) rgba(25, 28, 41, 0.6);
     background-blend-mode: multiply;
 }
 .second {
-    background: url(/assets/images/review-2.jpg) rgba(25, 28, 41, 0.6);
+    background: url(../assets/images/review-2.jpg) rgba(25, 28, 41, 0.6);
     background-blend-mode: multiply;
 }
 .third {
-    background: url(/assets/images/review-3.jpg) rgba(25, 28, 41, 0.6);
+    background: url(../assets/images/review-3.jpg) rgba(25, 28, 41, 0.6);
     background-blend-mode: multiply;
 }
 //==#SEVEN==//
