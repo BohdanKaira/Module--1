@@ -289,11 +289,11 @@
             document.getElementById('hamb-btn').classList.toggle('is-active');
             document.getElementById('mobile-sidebar').classList.toggle('open')
             }
-            const lazyLoadInstance = new LazyLoad({});
-            const wow = new WOW({
-                animateClass: "animate__animated"
-            })
-            wow.init();
+        const lazyLoadInstance = new LazyLoad({});
+        const wow = new WOW({
+            animateClass: "animate__animated"
+        })
+        wow.init();
         window.addEventListener('scroll', function(){
             if(window.scrollY > 30){
                 document.getElementById('header').classList.add('fixed');
